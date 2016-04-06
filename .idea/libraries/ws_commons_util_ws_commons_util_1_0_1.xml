@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="ws-commons-util:ws-commons-util:1.0.1" type="repository">
+    <properties maven-id="ws-commons-util:ws-commons-util:1.0.1" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/ws-commons-util/ws-commons-util/1.0.1/ws-commons-util-1.0.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/junit/junit/3.8.1/junit-3.8.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
