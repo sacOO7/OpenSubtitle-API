@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfc43c13-370a-4186-b144-953bd220c298" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/OpenSubtitle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OpensubtitlesDownloader/Main.class" afterPath="$PROJECT_DIR$/out/production/OpensubtitlesDownloader/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
     </list>
     <ignored path="OpensubtitlesDownloader.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,7 +43,7 @@
           <provider editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="255">
-                <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+                <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -674,7 +671,7 @@
       <workItem from="1459626515816" duration="4941000" />
       <workItem from="1459981202133" duration="1349000" />
       <workItem from="1459985368705" duration="610000" />
-      <workItem from="1460039020610" duration="1396000" />
+      <workItem from="1460039020610" duration="1530000" />
     </task>
     <task id="LOCAL-00001" summary="Made first raw commit for opensubtitles API">
       <created>1459982041712</created>
@@ -683,11 +680,18 @@
       <option name="project" value="LOCAL" />
       <updated>1459982041712</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added proper documentation">
+      <created>1460040432125</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1460040432125</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16419000" />
+    <option name="totallyTimeSpent" value="16553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -734,7 +738,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Made first raw commit for opensubtitles API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made first raw commit for opensubtitles API" />
+    <MESSAGE value="Added proper documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added proper documentation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -915,7 +920,7 @@
       <provider editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="255">
-            <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
             <folding />
           </first_editor>
           <second_editor />

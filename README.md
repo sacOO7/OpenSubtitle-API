@@ -36,6 +36,12 @@ First create instance of OpenSubtitle class
     OpenSubtitle openSubtitle=new OpenSubtitle();
     openSubtitle.login();
     openSubtitle.ServerInfo();
+    
+    
+    //Control logic goes here
+    
+    
+    
     openSubtitle.logOut();
 ```
 
