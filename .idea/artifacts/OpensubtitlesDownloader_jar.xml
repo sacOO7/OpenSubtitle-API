@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="OpensubtitlesDownloader:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/OpensubtitlesDownloader_jar</output-path>
+    <root id="archive" name="OpensubtitlesDownloader.jar">
+      <element id="module-output" name="OpensubtitlesDownloader" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/ws-commons-util-1.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/junit-3.8.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/xml-apis-1.0.b2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/org-apache-xmlrpc.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

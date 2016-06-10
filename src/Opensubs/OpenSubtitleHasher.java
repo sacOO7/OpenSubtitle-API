@@ -1,4 +1,20 @@
-/**
+/*
+ * Copyright 2016  sachin
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package Opensubs; /**
  * Created by sachin on 7/4/16.
  */
 
@@ -13,7 +29,7 @@ import java.nio.channels.FileChannel;
  * checksum of the first and last 64k (even if they overlap because the file is smaller than
  * 128k).
  */
-class OpenSubtitleHasher {
+public class OpenSubtitleHasher {
 
     /**
      * Size of the chunks that will be hashed in bytes (64 KB)
