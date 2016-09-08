@@ -7,18 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfc43c13-370a-4186-b144-953bd220c298" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/OpensubtitlesDownloader_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/My_Copyright.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OpensubtitlesDownloader/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OpensubtitlesDownloader/OpenSubtitleHasher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OpensubtitlesDownloader/OpenSubtitlesHasher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OpensubtitlesDownloader/SubtitleInfo.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Opensubs/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/OpenSubtitle.java" afterPath="$PROJECT_DIR$/src/Opensubs/OpenSubtitle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/OpenSubtitleHasher.java" afterPath="$PROJECT_DIR$/src/Opensubs/OpenSubtitleHasher.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SubtitleInfo.java" afterPath="$PROJECT_DIR$/src/Opensubs/SubtitleInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="OpensubtitlesDownloader.iws" />
@@ -45,10 +33,9 @@
       <file leaf-file-name="OpenSubtitle.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Opensubs/OpenSubtitle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="18">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding>
-                <element signature="e#0#15279#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -134,8 +121,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -229,6 +214,8 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -246,6 +233,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="settings.editor.selected.configurable" value="copyright" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v5.0.0/bin/node" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
@@ -701,7 +689,8 @@
       <workItem from="1462179906746" duration="24000" />
       <workItem from="1465111872315" duration="91000" />
       <workItem from="1465377348756" duration="2121000" />
-      <workItem from="1465579479431" duration="131000" />
+      <workItem from="1465579479431" duration="163000" />
+      <workItem from="1473358040156" duration="33000" />
     </task>
     <task id="LOCAL-00001" summary="Made first raw commit for opensubtitles API">
       <created>1459982041712</created>
@@ -724,15 +713,22 @@
       <option name="project" value="LOCAL" />
       <updated>1460040571335</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added Copyright">
+      <created>1465579628004</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1465579628004</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39677000" />
+    <option name="totallyTimeSpent" value="39742000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="0" />
-    <editor active="true" />
+    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -744,7 +740,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935917" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25896415" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25896415" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -777,7 +773,8 @@
     <MESSAGE value="Made first raw commit for opensubtitles API" />
     <MESSAGE value="Added proper documentation" />
     <MESSAGE value="Fixed a small part in  documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed a small part in  documentation" />
+    <MESSAGE value="Added Copyright" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Copyright" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -820,7 +817,6 @@
         <state relative-caret-position="4086">
           <caret line="237" column="38" selection-start-line="237" selection-start-column="38" selection-end-line="237" selection-end-column="38" />
           <folding>
-            <element signature="e#0#15279#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -858,7 +854,6 @@
         <state relative-caret-position="1944">
           <caret line="118" column="21" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="21" />
           <folding>
-            <element signature="e#0#15279#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -886,7 +881,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15279#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -914,7 +908,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15279#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -942,7 +935,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15279#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -970,7 +962,6 @@
         <state relative-caret-position="774">
           <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
           <folding>
-            <element signature="e#0#15279#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -998,7 +989,6 @@
         <state relative-caret-position="450">
           <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
           <folding>
-            <element signature="e#0#15279#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -1019,7 +1009,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15279#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -1236,10 +1225,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Opensubs/OpenSubtitle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15279#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
