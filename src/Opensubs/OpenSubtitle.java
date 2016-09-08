@@ -282,21 +282,7 @@ public class OpenSubtitle {
         return infos;
     }
 
-    public  String getExtension(HttpURLConnection webConnection) {
 
-        try {
-
-            String strContentDisposition = webConnection.getHeaderField("Content-Disposition");
-            System.out.println(strContentDisposition);
-            String strExtention = strContentDisposition.replaceAll(".*\\.([a-z]{3})\\..*", "$1");
-
-            return strExtention;
-
-        } catch (Exception e) {
-            return null;
-        }
-
-    }
 
     public void downloadSubtitle(URL url,String filename) throws IOException {
 
@@ -392,13 +378,5 @@ public class OpenSubtitle {
 //        }
 //    }
 
-    private boolean isVideoFile(File f) {
-        String fileName=f.getName();
-        String extension=fileName.substring(fileName.lastIndexOf('.')+1);
-        if(movieFileExtensions.contains(extension)){
-//            System.out.println("hey!!! its a video file"+f.getName());
-            return true;
-        }
-        return false;
-    }
+
 }
