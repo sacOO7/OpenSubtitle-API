@@ -1,6 +1,6 @@
 ## Introduction
 This is an API implemented in java using XML-RPC protocol.This protocol is implemented as a client
-which requests for resources on server.The Opensubtitle documentation creating API can be found [here](https://trac.opensubtitles.org/projects/opensubtitles/wiki/XMLRPC)
+which requests for resources on server.The Opensubtitle documentation for creating API can be found [here](https://trac.opensubtitles.org/projects/opensubtitles/wiki/XMLRPC)
 
 Download [dependency jar](https://github.com/sacOO7/OpenSubtitleDownloader-API/blob/master/out/artifacts/OpensubtitlesDownloader_jar/OpensubtitlesDownloader.jar?raw=true)
 
@@ -32,16 +32,18 @@ If you need to integrate multiple computing environments, but don't need to shar
 ## How to use?
 
 First create instance of OpenSubtitle class
-```
+```java
     OpenSubtitle openSubtitle=new OpenSubtitle();
     openSubtitle.login();
-    openSubtitle.ServerInfo();
     
+//  openSubtitle.ServerInfo();
+//  openSubtitle.getSubLanguages();
+
+    openSubtitle.getMovieSubsByName("now you see me","20","eng");
     
-    //Control logic goes here
-    
-    
-    
+//  openSubtitle.getTvSeriesSubs("game of thrones","1","1","10","eng");
+//  openSubtitle.Search("/home/sachin/Vuze Downloads/Minions.2015.720p.BRRip.850MB.MkvCage.mkv");
+
     openSubtitle.logOut();
 ```
 
