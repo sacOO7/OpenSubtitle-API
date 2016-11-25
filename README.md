@@ -2,7 +2,9 @@
 This is an API implemented in java using XML-RPC protocol.This protocol is implemented as a client
 which requests for resources on server.
 
-The Opensubtitle documentation for using API can be found [here](https://trac.opensubtitles.org/projects/opensubtitles/wiki/XMLRPC)
+The Opensubtitle documentation creating API can be found [here](https://trac.opensubtitles.org/projects/opensubtitles/wiki/XMLRPC)
+
+Download [dependency jar](www.google.com)
 
 ## Implementation
 XML-RPC is the simplest XML-based protocol for exchanging information between computers across a network.RPC stands for Remote Procedure Call. As its name indicates, it is a mechanism to call a procedure or a function available on a remote computer. RPC is a much older technology than the Web. Effectively, RPC gives developers a mechanism for defining interfaces that can be called over a network. These interfaces can be as simple as a single function call or as complex as a large API.
